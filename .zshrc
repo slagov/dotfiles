@@ -16,7 +16,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-
 # Display Pokemon-colorscripts
 # Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
 #pokemon-colorscripts --no-title -s -r #without fastfetch
@@ -31,6 +30,9 @@ alias l='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
+
+alias k='kubectl'
+
 # The next line updates PATH for CLI.
 if [ -f '/home/slagov/yandex-cloud/path.bash.inc' ]; then source '/home/slagov/yandex-cloud/path.bash.inc'; fi
 
