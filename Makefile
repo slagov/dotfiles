@@ -1,6 +1,4 @@
-.PHONY: all r2s
-
-all: install chsh r2s reload
+.PHONY: all install chsh r2s reload
 
 all: install chsh r2s reload
 
