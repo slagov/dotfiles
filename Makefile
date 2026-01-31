@@ -3,4 +3,4 @@
 all: sync-local
 
 r2s:
-	stow .
+	@stow .
