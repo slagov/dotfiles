@@ -2,5 +2,5 @@
 
 all: sync-local
 
-sync-local:
+r2s:
 	stow .

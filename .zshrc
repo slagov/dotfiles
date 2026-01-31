@@ -33,6 +33,3 @@ if [ -f '/home/slagov/yandex-cloud/path.bash.inc' ]; then source '/home/slagov/y
 
 # The next line enables shell command completion for yc.
 if [ -f '/home/slagov/yandex-cloud/completion.zsh.inc' ]; then source '/home/slagov/yandex-cloud/completion.zsh.inc'; fi
-
-gsettings set org.gnome.desktop.default-applications.terminal exec 'flatpak run org.wezfurlong.wezterm'
-
