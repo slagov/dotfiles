@@ -17,3 +17,5 @@ RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/
 sudo apt install wezterm-nightly
 
 sudo apt install stow
+
+sudo apt install fastfetch
