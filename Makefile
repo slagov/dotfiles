@@ -1,6 +1,6 @@
-.PHONY: all install chsh r2s reload
+.PHONY: all install chsh stow reload
 
-all: install chsh r2s reload
+all: install chsh stow reload
 
 install:
 	@chmod +x ./scripts/install_dependencies.sh
@@ -10,7 +10,7 @@ chsh:
 	@chmod +x ./scripts/set_zsh.sh
 	@./scripts/set_zsh.sh
 
-r2s:
+stow:
 	@stow .
 
 reload:
