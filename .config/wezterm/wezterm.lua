@@ -5,12 +5,12 @@ config.font_size = 15
 config.line_height = 0.8
 
 config.hide_tab_bar_if_only_one_tab = true
-config.color_scheme = 'Adventure Time (Gogh)'
--- config.color_scheme = 'Cyberdyne'
--- config.color_scheme = 'Apple System Colors'
-
 config.use_fancy_tab_bar = false
 config.tab_bar_at_bottom = true
+
+config.color_scheme = 'Adventure Time (Gogh)'
+
+config.window_decorations = 'NONE'
 
 config.initial_cols = 100
 config.initial_rows = 30
