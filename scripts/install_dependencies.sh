@@ -15,3 +15,5 @@ RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/
 
 # install wezterm-nightly
 sudo apt install wezterm-nightly
+
+sudo apt install stow
