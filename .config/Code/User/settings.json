@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "python.venvFolders": [
+        ".config/Code/User/globalStorage/ackeeblockchain.tools-for-solidity"
+    ],
+    "solidity.telemetry": true,
+    "dart.flutterSdkPath": "/home/slagov/Documents/flutter",
+    "files.associations": {
+        "*.mmd": "mermaid"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "settingsSync.ignoredExtensions": []
+}
