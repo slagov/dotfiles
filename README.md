@@ -3,7 +3,7 @@
 ## Install & Setup
 
 ```zsh
-sudo apt install git make
+sudo apt install -y git make
 cd; git clone https://github.com/slagov/dotfiles.git; cd dotfiles
 make
 ```

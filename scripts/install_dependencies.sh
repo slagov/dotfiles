@@ -9,6 +9,8 @@ sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
 
 sudo apt update
 
+sudo apt install -y stow fastfetch
+
 # install zsh
 sudo apt install -y zsh
 
@@ -16,8 +18,4 @@ sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
 # install wezterm-nightly
-sudo apt install wezterm-nightly
-
-sudo apt install stow
-
-sudo apt install fastfetch
+sudo apt install -y wezterm-nightly
