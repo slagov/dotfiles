@@ -14,7 +14,7 @@ sudo apt update
 sudo apt install -y zsh
 
 # install ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
+RUNZSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended # CHSH=no
 
 # install wezterm-nightly
 sudo apt install -y wezterm-nightly
