@@ -5,6 +5,7 @@
 # See 'info stow' section "4 Ignore Lists" for more information
 
 scripts
+assets
 Makefile
 
 RCS
