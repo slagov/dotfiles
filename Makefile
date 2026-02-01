@@ -1,6 +1,6 @@
-.PHONY: all install chsh setwz stow open-emulator
+.PHONY: all install chsh setwz stow
 
-all: install chsh setwz stow open-emulator
+all: install chsh setwz stow
 
 install:
 	@chmod +x ./scripts/install_dependencies.sh
@@ -19,6 +19,3 @@ stow:
 	@git checkout .
 	@git reset --hard
 	@git clean -fd
-
-open-emulator:
-	@wezterm
