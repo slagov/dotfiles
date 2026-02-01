@@ -15,7 +15,10 @@ chsh:
 	@./scripts/set_zsh.sh
 
 stow:
-	@stow .
+	@stow --adopt .
+	@git checkout master
+	@git reset --hard
+	@git clean -fd
 
 open-emulator:
 	@wezterm

@@ -10,7 +10,7 @@ config.tab_bar_at_bottom = true
 
 config.color_scheme = 'Adventure Time (Gogh)'
 
-config.window_decorations = 'INTEGRATED_BUTTONS|RESIZE'
+config.window_decorations = 'INTEGRATED_BUTTONS|NONE'
 
 config.initial_cols = 100
 config.initial_rows = 30
