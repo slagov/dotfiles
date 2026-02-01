@@ -16,7 +16,7 @@ chsh:
 
 stow:
 	@stow --adopt .
-	@git checkout master
+	@git checkout .
 	@git reset --hard
 	@git clean -fd
 
