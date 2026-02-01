@@ -1,4 +1,4 @@
-.PHONY: all install chsh stow reload
+.PHONY: all install chsh setwz stow open-emulator
 
 all: install chsh setwz stow open-emulator
 
