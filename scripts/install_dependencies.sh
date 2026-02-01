@@ -2,7 +2,7 @@
 
 sudo apt update
 
-sudo apt install -y curl lsd stow
+sudo apt install -y curl git lsd stow
 
 # add repositories
 curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
