@@ -1,6 +1,6 @@
 .PHONY: all install chsh stow reload
 
-all: install chsh stow reload
+all: install chsh stow open-emulator
 
 install:
 	@chmod +x ./scripts/install_dependencies.sh
@@ -13,5 +13,5 @@ chsh:
 stow:
 	@stow .
 
-reload:
-	@source ~/.zshrc
+open-emulator:
+	@wezterm
