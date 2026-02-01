@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 sudo apt update
-sudo apt install -y curl stow
+
+sudo apt install -y curl lsd stow
 
 # add repositories
 curl -fsSL https://apt.fury.io/wez/gpg.key | sudo gpg --yes --dearmor -o /usr/share/keyrings/wezterm-fury.gpg
@@ -14,7 +15,7 @@ sudo apt update
 sudo apt install -y zsh
 
 # install ohmyzsh
-RUNZSH=no CHSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended # CHSH=no
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # install wezterm-nightly
 sudo apt install -y wezterm-nightly
