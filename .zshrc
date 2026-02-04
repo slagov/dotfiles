@@ -3,12 +3,15 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
+export PATH=$HOME/.local/bin:$PATH
+export MANPATH=$HOME/.local/share/man:$MANPATH
+
 # ZSH_THEME="duellj"
 ZSH_THEME="jonathan"
 # ZSH_THEME="rkj-repos"
 # ZSH_THEME="xiong-chiamiov-plus"
 
-plugins=( 
+plugins=(
     git
     zsh-autosuggestions
     zsh-syntax-highlighting
