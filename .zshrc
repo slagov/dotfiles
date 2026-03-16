@@ -34,6 +34,8 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 
+alias open='xdg-open'
+
 alias k='kubectl'
 
 # The next line updates PATH for CLI.
